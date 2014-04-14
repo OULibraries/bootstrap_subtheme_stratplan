@@ -1,7 +1,7 @@
-name = OU Libraries Bootstrap Sub-theme
-description = Basic Boostrap Sub-theme for OU Libraries
+name = Strategic Plan Sub Theme
+description = Ou Libraries sub theme for Strategic plan
 core = 7.x
-base theme = bootstrap
+base theme = bootstrap_subtheme_OULib
 
 
 ;;;;;;;;;;;;;;;;;;;;;
@@ -24,7 +24,6 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
-stylesheets[all][] = css/globalnav.css
 
 
 ; For information on choosing the desired method, please read the Drupal
