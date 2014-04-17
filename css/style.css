@@ -48,3 +48,7 @@ html,body{
     padding: .5em 0 0 1.5em;
 
 }
+
+ul.menu li a.home {
+	color:#e7e7e7;
+}

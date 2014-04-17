@@ -137,7 +137,7 @@
       
 <div class="container">
  
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?> navbar-inverse">
+<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>" >
   <div class="container">
     <div class="navbar-header">
       
@@ -157,6 +157,7 @@
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       <div class="navbar-collapse collapse">
         <nav role="navigation">
+        
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
           <?php endif; ?>
