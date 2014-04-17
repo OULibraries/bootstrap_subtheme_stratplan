@@ -119,9 +119,9 @@
 
                 <div class="col-md-12">
 
-                    <a href="#">
+                    <a href="http://129.15.14.238/plan4future/">
 
-                        <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/oulogo.png" class="img-responsive" alt="Logo" /></a>
+                        <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/logo_banner.jpg" class="img-responsive" alt="Logo" /></a>
 
                 </div>
 
