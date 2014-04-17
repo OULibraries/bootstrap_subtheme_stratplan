@@ -38,3 +38,13 @@ html,body{
   background-color: #585859;
   border-color: #31347B;
  }
+
+.header{
+
+    background-color: #ffffff;
+
+    min-height: 140px;
+
+    padding: .5em 0 0 1.5em;
+
+}
