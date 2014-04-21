@@ -14,6 +14,7 @@
 
 html,body{
     height: 100%;
+	background-color:#cccccc;
 }
 
 #holder{
@@ -39,16 +40,30 @@ html,body{
   border-color: #31347B;
  }
 
-.header{
-
-    background-color: #ffffff;
-
-    min-height: 140px;
-
-    padding: .5em 0 0 1.5em;
+.header1{
+    padding: 0 0 0 0;
+	background-color:#cccccc;
 
 }
 
 ul.menu li a.home {
 	color:#e7e7e7;
+}
+
+
+.topmargin {
+	margin-top:-10px;
+}
+
+.whitebg {
+	background-color:#ffffff;	
+}
+
+.navbar {
+	border-radius:0px;	
+	background-color:#e2e2e2;
+}
+
+.node h2 a {
+	color:#770909;	
 }

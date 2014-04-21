@@ -107,9 +107,9 @@
  <!-- end ou global navigation bar -->
  <!-- ou logo Header -->
  
- <div class="header">
+ <div class="header1">
 
-        <div class="container">
+        <div class="container whitebg">
 
 		<!-- row 1: navigation -->
 
@@ -124,18 +124,33 @@
                         <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/logo_banner.jpg" class="img-responsive" alt="Logo" /></a>
 
                 </div>
-
-                
+            
 
             </div>
+            
+              <!-- banner image -->
+              <div class="row">
+
+                <div class="col-md-12">
+
+                    <a href="http://129.15.14.238/plan4future/">
+
+                        <img src="<?php print $GLOBALS['base_url']."/".path_to_theme() ?>/img/bannerimg.jpg" class="img-responsive" alt="Logo" /></a>
+
+                </div>
+            
+
+            </div>
+            
+            
 
         </div>
 
     </div>
-    
+      
     <!-- end ou logo header -->
       
-<div class="container">
+<div class="container topmargin whitebg">
  
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>" >
   <div class="container">
