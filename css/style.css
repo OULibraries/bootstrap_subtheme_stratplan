@@ -66,4 +66,39 @@ ul.menu li a.home {
 
 .node h2 a {
 	color:#770909;	
+	font-size:18px;
+	font-weight:bold;
 }
+
+h2.block-title {
+	Font-size:18px;	
+	font-weight:bold;
+}
+
+div.field-name-field-tags, div.library-experience h2 a {
+	display:none;	
+}
+
+div.views-row {
+	border:1px solid #cccccc;
+	margin-bottom:10px;
+	border-radius:3px;	
+	padding:5px;
+		
+}
+
+div.node-section-beige {
+	background-color:#e7ddb8;	
+	padding:20px;
+}
+
+div.node-section-olive {
+	background-color:#cfdfb1;	
+	padding:20px;
+}
+
+div.node-section-crimson {
+	background-color:#c0504d;	
+	padding:20px;
+}
+
