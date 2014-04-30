@@ -83,7 +83,7 @@ div.views-row {
 }
 
 
-Div.view-blog div.views-row, div.view-frontpage div.views-row {
+div.view-blog div.views-row, div.view-frontpage div.views-row {
 	border:1px solid #cccccc;
 	margin-bottom:10px;
 	border-radius:3px;	
@@ -91,23 +91,33 @@ Div.view-blog div.views-row, div.view-frontpage div.views-row {
 		
 }
 
-div.view-blog div.field-type-text-with-summary {
+div.view-construction-updates div.views-row, div.view-campus-research-blog div.views-row, div.view-professional-development-blog div.views-row, div.view-library-experience-blog div.views-row, div.view-special-collections-blog div.views-row, div.view-scholarly-communications-blog div.views-row{
+	padding:10px;
+}
+
+div.view-blog div.field-type-text-with-summary, div.view-construction-updates div.field-type-text-with-summary, div.view-campus-research-blog div.field-type-text-with-summary, div.view-professional-development-blog div.field-type-text-with-summary, div.view-library-experience-blog div.field-type-text-with-summary, div.view-special-collections-blog div.field-type-text-with-summary, div.view-scholarly-communications-blog div.field-type-text-with-summary{
 	float:left;	
 	width:70%;
 }
 
-div.view-blog div.field-name-field-blog-image {
+div.view-blog div.field-name-field-blog-image, div.view-construction-updates div.field-name-field-blog-image, div.view-campus-research-blog div.field-name-field-blog-image, div.view-professional-development-blog div.field-name-field-blog-image, div.view-library-experience-blog div.field-name-field-blog-image, div.view-special-collections-blog div.field-name-field-blog-image, div.view-scholarly-communications-blog div.field-name-field-blog-image{
 	float:left;	
 	margin-left:5%;
 	width:20%;
 }
 
-div.view-blog div.field-name-field-blog-image img{
+div.view-blog div.field-name-field-blog-image img, div.view-construction-updates div.field-name-field-blog-image img, div.view-campus-research-blog div.field-name-field-blog-image img, div.view-professional-development-blog div.field-name-field-blog-image img, div.view-library-experience-blog div.field-name-field-blog-image img, div.view-special-collections-blog div.field-name-field-blog-image img, div.view-scholarly-communications-blog div.field-name-field-blog-image img{
 	max-width:150px;
 	height:auto;
 	margin-top:-70px;
 	padding:5px;
 	border:1px solid #cccccc;
+}
+
+.menu_indent {
+	margin-left:15px;
+	margin-bottom:20px;
+	margin-top:20px;	
 }
 
 div.field-type-text-with-summary {
