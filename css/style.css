@@ -114,6 +114,25 @@ div.view-blog div.field-name-field-blog-image img, div.view-construction-updates
 	border:1px solid #cccccc;
 }
 
+div.field-name-field-blog-image {
+	float:right;	
+}
+
+li.node-readmore {
+	display:block;
+	clear:both;
+	margin-top:18px;
+	padding:9px;
+	background-image:url(../img/readmore.jpg);
+	background-repeat:no-repeat;
+
+}
+li.node-readmore a {
+	color:#ffffff;
+	margin-left:8px;	
+}
+
+
 .menu_indent {
 	margin-left:15px;
 	margin-bottom:20px;
