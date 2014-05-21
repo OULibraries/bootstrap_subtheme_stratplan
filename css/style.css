@@ -158,13 +158,15 @@ div.node-section-olive {
 }
 
 div.node-section-crimson {
-	background-color:#c0504d;	
+	background-color:#d27d7d;	
 	padding:20px;
 }
 
 h1 {
 	font-size:28px;
 	font-weight:bold;
+	margin-top:-10px;
+	margin-bottom:20px;
 }
 
 h2 {
@@ -202,4 +204,11 @@ h2 {
 div.view-photo-gallery2  img {
 	margin-bottom:10px;
 	margin-top:10px;
+}
+
+.photogallery-label {
+	Margin:20px 0px 20px 0px;
+	Border-top:solid 1px #cccccc;
+	border-bottom:solid 1px #cccccc;
+	padding:20px 0px 20px 0px;
 }
